@@ -84,7 +84,7 @@ correlation_matrix <- function(df,
   stopifnot({
     is.numeric(digits)
     digits >= 0
-    use %in% c("all", "upper", "lower")
+    use %in% c("all")
     is.logical(replace_diagonal)
     is.logical(show_significance)
     is.character(replacement)
